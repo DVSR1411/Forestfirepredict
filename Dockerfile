@@ -1,5 +1,5 @@
 # Use the official Python image as the base image
-FROM python:3.8
+FROM python:3.9.20-alpine3.20
 MAINTAINER sathwik
 # Set the working directory in the container
 WORKDIR /app
